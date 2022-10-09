@@ -1,0 +1,24 @@
+@-moz-document regexp(".*") {
+
+    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (June 26, 2022) */
+
+    @font-face { 
+        font-family: メイリオ; 
+        src: local("BIZ UDPGothic");
+    }
+
+    @font-face { 
+        font-family: Meiryo; 
+        src: local("BIZ UDPGothic");
+    }
+
+    @font-face { 
+        font-family: "ＭＳ Ｐゴシック";
+        src: local("BIZ UDPGothic");
+    }
+
+    @font-face { 
+        font-family: MS PGothic;
+        src: local("BIZ UDPGothic");
+    }
+}

@@ -1,0 +1,9 @@
+@-moz-document domain("nicovideo.jp") {
+    div.MainContainer-marquee {
+        display: none;
+    }
+    
+    section.EasyCommentContainer {
+        display: none;
+    }
+}

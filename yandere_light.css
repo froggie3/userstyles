@@ -1,0 +1,21 @@
+body {
+    background: #fff;
+}
+
+.action-post-show>body {
+    background: #fff;
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt {
+    color: #cecece;
+}
+
+div.status-notice {
+    border: none;
+    margin: 1em 0;
+    background: whitesmoke;
+}
+
+a.largeimg {
+    background: #fff0;
+}

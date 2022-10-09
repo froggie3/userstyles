@@ -1,0 +1,8 @@
+.q-box .qu-overflow--hidden {
+    filter: none !important;
+    position: initial !important;
+}
+
+.qu-zIndex--blocking_wall {
+    display:none !important;
+}

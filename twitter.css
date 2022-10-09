@@ -1,0 +1,36 @@
+@-moz-document regexp("[.*]twitter.com/.*") {
+
+    @import url("https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp.min.css");
+
+    .r-1tl8opc {
+        font-family: Roboto, "YakuHanJP", "BIZ UDPGothic", Arial, sans-serif !important;
+        letter-spacing: .5pt;
+    }
+
+
+    /* 
+     * トレンド欄を消す
+    .r-x572qd { 
+        display: none;
+    }
+    */
+
+    /*
+    /* フッターを消す
+    .r-1w6e6rj { 
+        display: none;
+    }
+    */
+
+    .r-sdzlij { 
+        border-radius: 9999px;
+    }
+
+    .r-1867qdf {
+        border-radius: 0px;
+    }
+
+    .r-1udh08x { 
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,9 @@
+.lead, .note-style {
+    font-family: "BIZ UDPGothic" !important;
+    line-height: 2;
+    letter-spacing: 1pt;
+}
+
+.midasi, .ko_midasi, .card h3, .epi-waku, .syutudai  {
+    font-family: "Yu Gothic"
+}
