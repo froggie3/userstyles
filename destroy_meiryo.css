@@ -1,10 +1,10 @@
 @-moz-document regexp(".*") {
+    tt *, pre *, code *, kbd *, samp *, var * {
+        font-family: monospace !important;
+    }
 
-    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (June 26, 2022) */
-
-    @font-face { 
-        font-family: メイリオ; 
-        src: local("BIZ UDPGothic");
+    p, ul, ol, input, button, h1, h2, h3, h4, h5, h6 {
+        font-family: "Roboto", "BIZ UDPGothic" !important;
     }
 
     @font-face { 
@@ -13,12 +13,12 @@
     }
 
     @font-face { 
-        font-family: "ＭＳ Ｐゴシック";
+        font-family: MS PGothic;
         src: local("BIZ UDPGothic");
     }
 
     @font-face { 
-        font-family: MS PGothic;
+        font-family: "Yu Gothic";
         src: local("BIZ UDPGothic");
     }
 }
