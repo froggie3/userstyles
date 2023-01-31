@@ -1,23 +1,54 @@
+/* ==UserStyle==
+@name           Destroy Meiryo
+@namespace      github.com/froggie3
+@version        0.0.1
+@description    A custom userstyle that replace some Meiryo or other cringy-look fonts with BIZ UDPGothic 
+@author         Yokkin [https://yokkin.com]
+@updateURL      https://github.com/froggie3/userstyles/raw/master/css/destroy_meiryo.css
+@license        MIT
+==/UserStyle== */
+
 @-moz-document regexp(".*") {
-    tt *, pre *, code *, kbd *, samp *, var * {
-        font-family: monospace !important;
+    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (September 17, 2022) */
+
+    tt *,
+    pre *,
+    code *,
+    kbd *,
+    samp *,
+    var * {
+        font-family: Consolas, "BIZ UDGothic", monospace !important;
     }
 
-    p, ul, ol, input, button, h1, h2, h3, h4, h5, h6 {
-        font-family: "Roboto", "BIZ UDPGothic" !important;
+    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (September 17, 2022) */
+
+    p,
+    ul,
+    ol,
+    input,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Segoe UI", SegoeUI, "BIZ UDPGothic" !important;
     }
 
-    @font-face { 
-        font-family: Meiryo; 
+    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (June 26, 2022) */
+
+    @font-face {
+        font-family: Meiryo;
         src: local("BIZ UDPGothic");
     }
 
-    @font-face { 
+    @font-face {
         font-family: MS PGothic;
         src: local("BIZ UDPGothic");
     }
 
-    @font-face { 
+    @font-face {
         font-family: "Yu Gothic";
         src: local("BIZ UDPGothic");
     }

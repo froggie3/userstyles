@@ -1,6 +1,16 @@
+/* ==UserStyle==
+@name           Feederのレイアウト調整
+@namespace      github.com/froggie3
+@version        0.0.1
+@description    見づらいフォントを置き変える
+@author         Yokkin [https://yokkin.com]
+@updateURL      https://github.com/froggie3/userstyles/raw/master/css/destroy_meiryo.css
+@license        MIT
+==/UserStyle== */
+
+
 @-moz-document regexp("http[|s]://www(|[0-9]).x-feeder.info/.*") {
 
-    /* Feederのレイアウト調整 (June 26, 2022) */
 
     /* 見づらいフォントを置き変える
     /* 
