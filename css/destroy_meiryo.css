@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Destroy Meiryo
 @namespace      github.com/froggie3
-@version        0.0.1
+@version        0.0.2
 @description    A custom userstyle that replace some Meiryo or other cringy-look fonts with BIZ UDPGothic 
 @author         Yokkin [https://yokkin.com]
 @updateURL      https://github.com/froggie3/userstyles/raw/master/css/destroy_meiryo.css
@@ -9,7 +9,6 @@
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
-    
 tt *,
 pre *,
 code *,
