@@ -9,47 +9,44 @@
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
-    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (September 17, 2022) */
+    
+tt *,
+pre *,
+code *,
+kbd *,
+samp *,
+var * {
+    font-family: Consolas, "BIZ UDGothic", monospace !important;
+}
 
-    tt *,
-    pre *,
-    code *,
-    kbd *,
-    samp *,
-    var * {
-        font-family: Consolas, "BIZ UDGothic", monospace !important;
-    }
 
-    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (September 17, 2022) */
+p,
+ul,
+ol,
+input,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", SegoeUI, "BIZ UDPGothic" !important;
+}
 
-    p,
-    ul,
-    ol,
-    input,
-    button,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Segoe UI", SegoeUI, "BIZ UDPGothic" !important;
-    }
 
-    /* メイリオとＭＳ Ｐゴシックを滅ぼすスタイル指定 (June 26, 2022) */
+@font-face {
+    font-family: Meiryo;
+    src: local("BIZ UDPGothic");
+}
 
-    @font-face {
-        font-family: Meiryo;
-        src: local("BIZ UDPGothic");
-    }
+@font-face {
+    font-family: MS PGothic;
+    src: local("BIZ UDPGothic");
+}
 
-    @font-face {
-        font-family: MS PGothic;
-        src: local("BIZ UDPGothic");
-    }
-
-    @font-face {
-        font-family: "Yu Gothic";
-        src: local("BIZ UDPGothic");
-    }
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("BIZ UDPGothic");
+}
 }

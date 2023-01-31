@@ -10,111 +10,108 @@
 
 
 @-moz-document regexp("http[|s]://www(|[0-9]).x-feeder.info/.*") {
+/* 見づらいフォントを置き変える
+/* 
+/* 全称セレクタ (*) でフォントをすべて置換している場合は、
+/* このセクション全体をコメントインのままにしておいてOK
 
 
-    /* 見づらいフォントを置き変える
-    /* 
-    /* 全称セレクタ (*) でフォントをすべて置換している場合は、
-    /* このセクション全体をコメントインのままにしておいてOK
-
-
-        @font-face { 
-            font-family: メイリオ; 
-            src: local("BIZ UDPGothic");
-        }
-
-        @font-face { 
-            font-family: Meiryo; 
-            src: local("BIZ UDPGothic");
-        }
-
-        @font-face { 
-            font-family: "ＭＳ Ｐゴシック";
-            src: local("BIZ UDPGothic");
-        }
-
-        @font-face { 
-            font-family: MS PGothic;
-            src: local("BIZ UDPGothic");
-        }
-    */
-
-    /* 行幅を変更 */
-
-    body {
-        line-height: 1.75;
-        font-family: Segoe UI
+    @font-face { 
+        font-family: メイリオ; 
+        src: local("BIZ UDPGothic");
     }
 
-    input, textarea {
-        line-height: 1.5;
+    @font-face { 
+        font-family: Meiryo; 
+        src: local("BIZ UDPGothic");
     }
 
-    /* ボタンの調整 */
-
-    button {
-        padding: 4px 8px;
+    @font-face { 
+        font-family: "ＭＳ Ｐゴシック";
+        src: local("BIZ UDPGothic");
     }
 
-    /* 自由帳関連 */
-
-    div#note_menu {
-        height: 2em;
-        padding: 2px 4px;
+    @font-face { 
+        font-family: MS PGothic;
+        src: local("BIZ UDPGothic");
     }
+*/
 
-    div#note_menu button {
-        width: auto;
-        height: auto;
-    }
+/* 行幅を変更 */
 
-    /* 一部のアイコンが行幅の変更によって表示がおかしくなるのを修正 */
+body {
+    line-height: 1.75;
+    font-family: Segoe UI
+}
 
-    div#navi_right {
-        display: flex;
-    }
+input, textarea {
+    line-height: 1.5;
+}
 
-    div#navi_right p {
-        float: none;
-        display: flex;
-    }
+/* ボタンの調整 */
 
-    #navi_right p {
-        place-items: center;
-    }
+button {
+    padding: 4px 8px;
+}
 
-    /* アイコンとテキストの間隔を微調整 */
+/* 自由帳関連 */
 
-    #navi_right * .icons_sprite {
-        margin-right: .25em;
-    }
+div#note_menu {
+    height: 2em;
+    padding: 2px 4px;
+}
 
-    /* ふきだしのデザインの微調整 */
+div#note_menu button {
+    width: auto;
+    height: auto;
+}
 
-    table.comment td {
-        padding: 4px 8px 4px 8px;
-    }
+/* 一部のアイコンが行幅の変更によって表示がおかしくなるのを修正 */
 
-    /* ピックアップルームのセクションを非表示 */
+div#navi_right {
+    display: flex;
+}
 
-    div#pickup_rooms_frame {
-        display: none;
-    }
+div#navi_right p {
+    float: none;
+    display: flex;
+}
 
-    /* 強制的にアバターサイズを変更 */
+#navi_right p {
+    place-items: center;
+}
 
-    .name img {
-        width: 96px;
-        height: auto;
-    }
+/* アイコンとテキストの間隔を微調整 */
+
+#navi_right * .icons_sprite {
+    margin-right: .25em;
+}
+
+/* ふきだしのデザインの微調整 */
+
+table.comment td {
+    padding: 4px 8px 4px 8px;
+}
+
+/* ピックアップルームのセクションを非表示 */
+
+div#pickup_rooms_frame {
+    display: none;
+}
+
+/* 強制的にアバターサイズを変更 */
+
+.name img {
+    width: 96px;
+    height: auto;
+}
 }
 
 @-moz-document regexp("https:\/\/www2\.x-feeder\.info\/Kocchi_Minna\/") {
-
-    /* タイトルバーのフォント色を変える */
-    #header h1 {
-        color: #ffffff;
-        text-shadow: 0px 0px 5px #000000;
-        font-weight: normal;
-    }
+/* タイトルバーのフォント色を変える */
+#header h1 {
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #000000;
+    font-weight: normal;
+}
 }
